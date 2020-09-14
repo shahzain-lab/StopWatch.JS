@@ -10,11 +10,12 @@ header{
     background-image: url(./snow.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .main-div{
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: 30%;
     text-align: center;
     position: relative;
     top: 50%;
@@ -30,4 +31,43 @@ header{
     color: #fff;
     text-align: center;
     text-transform: capitalize;
+}
+
+
+#minuts ,#second, #tens{
+    width: 100%;
+    overflow: hidden;
+    font-size: 3rem;
+    color: #fff;
+    
+}
+.dots , .dot1{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom:10px ;
+    
+    margin:0px 10px ;
+}
+button{
+    margin: 15px;
+    padding: 10px 35px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: rgb(41, 166, 170);
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+     background:  rgb(41, 166, 170);
+    color: #fff;
+    border: 2px solid rgb(41, 166, 170);
+   
+}
+.footer{
+    margin-top: 500px;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
 }
