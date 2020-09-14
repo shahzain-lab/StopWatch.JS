@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./snow.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main-div{
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    /* background-color: palevioletred; */
+    
+}
+
+.main-para{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
