@@ -23,11 +23,15 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Installing Node
-        uses: action/setup-node@v2-beta
+        uses: action/setup-node@v2.1.2
         with:
           node-version: 12  
-
-      # Runs a set of commands using the runners shell
+      - name: github action for yarn
+        uses: Borales/action-yarn@v2.1.0
+        with:
+          #yarn command
+         cmd: install
+        # Runs a set of commands using the runners shell
       - name: Installing surge
         run: npm install --global surge
       - name: deployong using surge
