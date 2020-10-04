@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 12  
       - name: github action for yarn
-        uses: Borales/action-yarn@v2.3.0
+        uses: Borales/actions-yarn@v2.3.0
         with:
           #yarn command
          cmd: install 
